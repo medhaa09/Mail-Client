@@ -8,7 +8,7 @@ A demo of the working web-app can be viewed by visiting:
 Make sure you have Node.js and npm installed on your machine.
 Clone the project
 ```bash
-git clone 
+git clone https://github.com/medhaa09/Mail-Client.git
 ```
 
 Go to the project directory
