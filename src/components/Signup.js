@@ -17,7 +17,7 @@ const Signup = () => {
   const handlechange=(c)=>{
    
     c.preventDefault()  //the default behaviour will be that this function will try to navigate to the route below on click but we dont want that so we use preventDefault()
-    axios.post('http://localhost:8080/Signup',{name, password, email})
+    axios.post('https://mail-client-1.onrender.com/Signup',{name, password, email})
     .then((res) => {
         setSignupStatus('Signup Successful');
         setTimeout(() => {
