@@ -26,7 +26,7 @@ const LoginForm = () => {
   const navigate=useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:8080/login',{email, password})
+    axios.post('https://mail-client-1.onrender.com/login',{email, password})
     .then((res) => {
       const responseData = res.data;
       // Split the response data into separate JSON objects
