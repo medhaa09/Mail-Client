@@ -3,7 +3,7 @@
 
 This is a mail client with the features of composing a mail and also filtering mails by read, unread and favourites, including the login logout and signup functionality.
 ## Demo
-A demo of the working web-app can be viewed by visiting: https://mailclienttask.netlify.app/signup
+A demo of the working web-app can be viewed by visiting: https://mailclienttask.netlify.app/
 ## To run locally
 Make sure you have Node.js and npm installed on your machine.
 Clone the project
